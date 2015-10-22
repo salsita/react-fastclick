@@ -3,9 +3,8 @@
 (function () {
 
   var React = require('react');
-  var EventListener = require('react/lib/EventListener');
+  var EventListener = require('fbjs/lib/EventListener');
 
-  React.initializeTouchEvents(true);
 
   // Save original listen method
   var listen = EventListener.listen;
